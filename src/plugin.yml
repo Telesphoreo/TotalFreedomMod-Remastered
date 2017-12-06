@@ -1,0 +1,15 @@
+name: TotalFreedomMod
+version: 0.1
+description: TotalFreedomMod Remastered
+author: Telesphoreo
+main: com.fusenetworks.fuse.Fuse
+commands:
+  admin:
+    description: Manage admins
+    usage: /<command> <list | add <player> | remove <player> | setrank <player> <rank>>
+  list:
+    description: See a list of players online
+    usage: /<command>
+  op:
+    description: Op a player
+usage: /<command> <player>
