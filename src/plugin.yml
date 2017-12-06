@@ -7,9 +7,16 @@ commands:
   admin:
     description: Manage admins
     usage: /<command> <list | add <player> | remove <player> | setrank <player> <rank>>
+  gtfo:
+    description: Bans a player
+    usage: /<command> <player> <reason>
   list:
     description: See a list of players online
     usage: /<command>
   op:
     description: Op a player
-usage: /<command> <player>
+    usage: /<command> <player>
+  totalfreedommod:
+    description: Shows information about TotalFreedomMod
+    usage: /<command>
+    aliases: tfm

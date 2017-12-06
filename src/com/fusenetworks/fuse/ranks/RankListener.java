@@ -12,11 +12,9 @@ import org.bukkit.event.player.PlayerJoinEvent;
 
 public class RankListener implements Listener
 {
-
     public RankListener(Fuse plugin) {
         plugin.getServer().getPluginManager().registerEvents(this, plugin);
     }
-
     @EventHandler(priority = EventPriority.NORMAL)
     public void onPlayerJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();
