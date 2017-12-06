@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd6571b1-5445-4a02-907d-8fc44f05b718" name="Default" comment="" />
+    <list default="true" id="fd6571b1-5445-4a02-907d-8fc44f05b718" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/TotalFreedomMod_Remastered/TotalFreedomMod-Remastered.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TotalFreedomMod-Remastered/com/fusenetworks/fuse/Fuse.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TotalFreedomMod-Remastered/com/fusenetworks/fuse/commands/Command_admin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TotalFreedomMod-Remastered/com/fusenetworks/fuse/commands/Command_list$Filter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TotalFreedomMod-Remastered/com/fusenetworks/fuse/commands/Command_list.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TotalFreedomMod-Remastered/com/fusenetworks/fuse/commands/Command_op.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TotalFreedomMod-Remastered/com/fusenetworks/fuse/config/Config.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TotalFreedomMod-Remastered/com/fusenetworks/fuse/config/ConfigManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TotalFreedomMod-Remastered/com/fusenetworks/fuse/ranks/RankListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TotalFreedomMod-Remastered/com/fusenetworks/fuse/ranks/RankManager$Rank.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TotalFreedomMod-Remastered/com/fusenetworks/fuse/ranks/RankManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/TotalFreedomMod_Remastered.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/spigot_1_12_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TotalFreedomMod-Remastered.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TotalFreedomMod-Remastered/admins.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TotalFreedomMod-Remastered/config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TotalFreedomMod-Remastered/plugin.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/admins.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fusenetworks/fuse/Fuse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fusenetworks/fuse/commands/Command_admin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fusenetworks/fuse/commands/Command_list.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fusenetworks/fuse/commands/Command_op.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fusenetworks/fuse/config/Config.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fusenetworks/fuse/config/ConfigManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fusenetworks/fuse/ranks/RankListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fusenetworks/fuse/ranks/RankManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/plugin.yml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,6 +55,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -73,10 +112,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/1.12.2/spigot-1.12.2.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -206,7 +246,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />

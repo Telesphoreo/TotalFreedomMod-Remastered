@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="TotalFreedomMod-Remastered">
+  <artifact type="jar" build-on-make="true" name="TotalFreedomMod-Remastered">
     <output-path>$PROJECT_DIR$/out/artifacts/TotalFreedomMod_Remastered</output-path>
     <root id="archive" name="TotalFreedomMod-Remastered.jar">
       <element id="module-output" name="TotalFreedomMod-Remastered" />
