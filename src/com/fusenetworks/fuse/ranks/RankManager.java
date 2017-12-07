@@ -5,6 +5,8 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+import java.util.UUID;
+
 import static com.fusenetworks.fuse.ranks.RankManager.Rank.*;
 
 public class RankManager {
@@ -38,6 +40,10 @@ public class RankManager {
     public static boolean isAdmin(CommandSender sender) {
         Player player = (Player) sender;
         return ConfigManager.getAdmin().getConfig().contains(player.getUniqueId().toString());
+    }
+
+    public static boolean isAdminBanListener(UUID player) {
+        return ConfigManager.getAdmin().getConfig().contains(player.toString());
     }
 
     public static boolean isSuperAdmin(CommandSender sender) {

@@ -2,6 +2,7 @@ package com.fusenetworks.fuse.commands;
 
 import com.fusenetworks.fuse.Fuse;
 import com.fusenetworks.fuse.ranks.RankManager;
+import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -54,7 +55,7 @@ public class Command_list implements CommandExecutor {
 
         sender.sendMessage(ChatColor.AQUA + "There are " + ChatColor.RED + Bukkit.getOnlinePlayers().size() + "/" + Bukkit.getMaxPlayers() + ChatColor.AQUA + " players online!");
         sender.sendMessage("Connected players: ");
-        sender.sendMessage(StringUtils.join(names, ChatColor.WHITE, ", ").replaceAll(" [ ]", ""));
+        sender.sendMessage(StringUtils.join(names, ChatColor.WHITE, ", "));
         return true;
     }
 }

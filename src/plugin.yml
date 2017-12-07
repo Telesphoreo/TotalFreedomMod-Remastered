@@ -20,3 +20,6 @@ commands:
     description: Shows information about TotalFreedomMod
     usage: /<command>
     aliases: tfm
+  unban:
+    description: Unbans a player
+    usage: /<command> <player>

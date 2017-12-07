@@ -44,8 +44,8 @@ public class Command_gtfo implements CommandExecutor {
         }
         ConfigManager.getBans().getConfig().set(player.getUniqueId().toString() + ".name", player.getName());
         ConfigManager.getBans().getConfig().set(player.getUniqueId().toString() + ".ip", player.getAddress().getHostString());
+        ConfigManager.getBans().getConfig().set(player.getUniqueId().toString() + ".by", sender.getName());
         ConfigManager.getBans().getConfig().set(player.getUniqueId().toString() + ".reason", reason);
-        ConfigManager.getBans().getConfig().set(player.getUniqueId().toString() + ".banned", "true");
         ConfigManager.getBans().saveConfig();
         player.kickPlayer(ChatColor.RED + "You have been banned by: " + sender.getName() + " for: " + reason);
         return true;

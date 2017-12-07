@@ -18,7 +18,6 @@ public class RankListener implements Listener
     @EventHandler(priority = EventPriority.NORMAL)
     public void onPlayerJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();
-
         if (RankManager.isSuperAdmin(player)) {
             Bukkit.broadcastMessage(ChatColor.AQUA + player.getName() + " is a " + ChatColor.ITALIC + "Super Admin");
         }
