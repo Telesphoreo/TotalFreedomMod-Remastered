@@ -1,16 +1,14 @@
-package com.fusenetworks.fuse.commands;
+package us.flowdesigns.orion.commands;
 
-import com.fusenetworks.fuse.Fuse;
-import org.bukkit.Bukkit;
+import us.flowdesigns.orion.Orion;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 
 public class Command_totalfreedommod implements CommandExecutor {
-    private final Fuse plugin;
-    public Command_totalfreedommod(Fuse plugin) {
+    private final Orion plugin;
+    public Command_totalfreedommod(Orion plugin) {
         this.plugin = plugin;
     }
     @Override
